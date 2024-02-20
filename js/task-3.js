@@ -2,6 +2,15 @@ const profile = {
     username: "Jacob",
   playTime: 300,
 };
+username ="Marco";
+playTime = 20;
+
+Info(){ return "this.username has this.playTime active hours!"};
+getInfo(){"this.username has this.playTime active hours!"};
+changeUsername(){return this.username};
+getInfo(){return "this(username) has this(playTime) active hours!" };
+updatePlayTime(){return this.thisplayTime};
+getInfo(){return "this(username) has this(playTime) active hours!" };
 
 
 
