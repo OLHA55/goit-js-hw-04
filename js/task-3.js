@@ -1,16 +1,23 @@
 const profile = {
     username: "Jacob",
-  playTime: 300,
+    playTime: 300,
+    getInfo() {
+      `${profile.username}  has ${profil.playTime}  active hours!`;
+    },
 };
-username ="Marco";
-playTime = 20;
+profile.getInfo();
+console.log(profile.getInfo());
+const newusername = "Marco";
 
-Info(){ return "this.username has this.playTime active hours!"};
-getInfo(){"this.username has this.playTime active hours!"};
-changeUsername(){return this.username};
-getInfo(){return "this(username) has this(playTime) active hours!" };
-updatePlayTime(){return this.thisplayTime};
-getInfo(){return "this(username) has this(playTime) active hours!" };
+     profile.changeUsername(){
+    profile.username = "Marco";
+};
+console.log(profile.changeUsername());
+const newplayTime = 20;  
+profile.pdateplayTime(){
+     playTime + newplayTime;
+};  
+console.log(profile.pdateplayTime());
 
 
 
