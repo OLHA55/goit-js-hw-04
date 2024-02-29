@@ -10,8 +10,12 @@ profile.getInfo();
 profile.changeName = "Marco";
 
 console.log(profile.changeName);
- 
-console.log(profile.getInfo());
+
+
+
+
+
+
     
 this.playTime1 = 20;
 this.playTime2 = this.playTime + this.playTime1;
